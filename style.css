@@ -1,0 +1,285 @@
+
+@media (min-width: 300px) {
+   *{
+       margin: 0;
+       padding: 0;
+   }
+   .list {
+       list-style: none;
+   }
+   
+    #title {
+        color:royalblue;
+        margin-top:60px;
+    }
+    #navigation ul li a {
+        list-style-type: none;
+        text-decoration:none !important;
+    }
+    .nav a {
+        list-style-type: none;
+        display: inline;
+        text-decoration: none;
+        color:blanchedalmond;
+        font-weight: bolder;
+        font-size: 18x;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        padding:20px;
+        box-shadow: 10px 10px 10px;
+       
+        
+    }      
+    .nav {
+        color:blanchedalmond;
+        font-weight: bolder;
+        font-size: 20px;
+        list-style-type: none;
+        display: inline-block;
+        padding-top:20px;
+    }
+    nav a:hover {
+        background-color: rgba(40, 6, 71, 0.479)
+    }
+
+    header {
+        width: 100%;
+        height: 65px;
+        position: fixed;
+        top:0;
+        left:0;
+        background-color: rgb(119, 81, 155);  
+        box-shadow: 0 5px 3px rgba(0, 0, 0, 0.1);
+        z-index: 1;
+    }
+       
+body{
+    text-align: justify;
+    margin-left: auto;
+    margin-right:auto;
+    background-color: rgba(102, 132, 223, 0.274);
+    font-size: 18;
+    
+}
+#image {
+    width: 300px;
+    text-align:center !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+#tribute-info {
+    background-color: rgba(123, 123, 207, 0.541);
+    width: 300px;
+    margin:10px auto;
+    padding:20 20;
+}
+    #son {
+    text-align:center;
+    margin-left: auto;
+    margin-right: auto;  
+    }
+
+#john {
+    text-align: left !important;
+}
+
+.video-1 {
+    width: 300px;
+    height: 180px;
+   
+}
+.video-2 {
+    width: 300px;
+    height: 180px;
+
+
+}
+.video-3 {
+    width: 300px;
+    height: 180px;
+    
+}
+.video-4 {
+    width: 300px;
+    height: 180px;
+    
+}
+.img-thanks {
+    width: 100px;
+    float: right;
+    margin-left: 10px;
+}
+
+#title-video2 {
+    text-align: center;
+}
+#tribute-link {
+    font: bold 18px Arial;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #EEEEEE;
+    color: #333333;
+    padding: 5px 12px 5px 12px;
+    border-top: 2px solid #CCCCCC;
+    border-right: 2px solid #333333;
+    border-bottom: 2px solid #333333;
+    border-left: 2px solid #CCCCCC;
+    margin-bottom: -50px;
+    border-radius: 20px;  
+}
+#tribute-link:hover {
+    color:  #ffffff;;
+    background-color: #333333;
+
+}
+.copyright {
+    text-align: center;
+    color: white;
+
+} 
+} 
+
+   
+@media (min-width: 620px) {
+   body {
+       font-size: 20px;
+   }
+    #image {
+        width: 600px;
+    }
+    #img-caption {
+        font-size: 1.4em;
+    }
+   #tribute-info {
+        background-color: rgba(123, 123, 207, 0.541);
+        width: 500px;
+        margin:10px auto;
+        padding:20 20;
+    }
+        
+    .video-1 {
+            width: 300px;
+            height: 180px;
+           
+    }
+    .video-2 {
+         width: 300px;
+        height: 180px;
+    }   
+    .video-3 {
+        width: 300px;
+       height: 180px;
+   } 
+   .video-4 {
+    width: 300px;
+   height: 180px;
+} 
+      
+            
+        
+    
+
+
+}
+     
+
+@media (min-width: 1000px) {
+    body {
+        font-size: 22px;
+
+    }
+    #title {
+        font-size: 3em;
+        color:royalblue;
+    }  
+    #img-caption {
+        font-size: 2em;
+    }   
+    #subtitle {
+        font-size: 2em;
+    }
+body{
+    text-align: justify;
+    margin-left: auto;
+    margin-right:auto;
+    background-color: rgb(188, 200, 236);
+}
+#image {
+    width: 900px;
+    text-align:center;
+    margin-left: auto;
+    margin-right: auto;
+}
+#tribute-info {
+    background-color: rgba(123, 123, 207, 0.541);
+    width: 900px;
+    margin:10px auto;
+    padding:20 20;
+}
+    #son {
+    text-align:center;
+    margin-left: auto;
+    margin-right: auto;  
+    }
+
+#john {
+    text-align: left !important;
+}
+
+.video-1 {
+    width: 560px;
+    height: 315px;
+   
+}
+.video-2 {
+    width: 560px;
+    height: 315px;
+    
+}
+.video-3 {
+    width: 560px;
+    height: 315px;
+    
+}
+.video-4 {
+    width: 560px;
+    height: 315px;
+    
+}
+.img-thanks {
+    width: 100px;
+    float: right;
+    margin-left: 10px;
+}
+
+#title-video2 {
+    text-align: center;
+}
+#tribute-link {
+    font: bold 18px Arial;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #EEEEEE;
+    color: #333333;
+    padding: 5px 12px 5px 12px;
+    border-top: 2px solid #CCCCCC;
+    border-right: 2px solid #333333;
+    border-bottom: 2px solid #333333;
+    border-left: 2px solid #CCCCCC;
+    margin-bottom: -50px;
+    border-radius: 20px;  
+ }
+#tribute-link:hover {
+    color:  #ffffff;;
+    background-color: #333333be;
+
+  }
+.copyright {
+    text-align: center;
+    color: white;
+
+    }
+       
+}
+
